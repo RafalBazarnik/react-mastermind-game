@@ -1,0 +1,3 @@
+const checkGuess = (rowArray, randomColors) => {
+
+}
