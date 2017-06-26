@@ -4,13 +4,14 @@ import { colorArray } from '../enums/colors'
 
 
 const initialState = () => {
+    const tries = 6;
     return {
         gameState: "new",
         activeRow: 0,
-        guesses: createEmptyRows(),
+        guesses: createEmptyRows(tries),
         tips: [],
-        numOfTries: 3,
-        randomColors: shuffleArray(colorArray.slice(0))
+        numOfTries: tries,
+        randomColors: shuffleArray(colorArray.slice(0)).slice(0, 4)
     }
 }
 

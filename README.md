@@ -1,32 +1,21 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-================================================================================
+
+Mastermind Game made with React and Redux.
 
 TO-DO-LIST:
-* model the state of app (active row, status of input circle, state of game?)
-* helper functions - create new row? remove all but one?
-* selecting circle and adding color from chooser
-* fill colors action
-* check button
-* check action - compare - return object with array of [2, 1, 1, 0]? + true/false?
-* component of guess results (small circles)
 * adding new guess row!? or static number?
-* some new component of win or lose
+* some new component of win or lose - modal?
 * some intro component of number of tries? number of circles? duplicates? Player name?
 * records - in localStorage? some filters? clearing by user?
-
-
-
-
-
-
-
-
-
-
-
-
+* full use of enums and helper functions
+* unit tests
 
 ================================================================================
+
+================================================================================
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 

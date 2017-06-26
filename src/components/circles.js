@@ -2,13 +2,12 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 import Circle from './circle'
+import Tips from './tips'
 
 
-const Circles = ({items, status, row}) => {
+const Circles = ({items, status, row, tips}) => {
     return (
-        <div style={{
-            display: 'block'
-        }}>
+        <div>
             <div
             style = {{
                 border: status === 'active' ? '2px solid red' : '1px solid lightgrey',
@@ -18,6 +17,7 @@ const Circles = ({items, status, row}) => {
                 {items.map((item, i) => (
                     <Circle key={i} active={true} row={row} pos={i} color={item.color} status={item.status}/>
                 ))}
+                <Tips arrayOfTips={tips} row={row}/>
             </div>
         </div>
     );

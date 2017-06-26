@@ -19,3 +19,9 @@ export const changeColor = (color) => {
         color
     };
 };
+
+export const resetGame = () => {
+    return {
+        type: "NEW_GAME"
+    };
+};

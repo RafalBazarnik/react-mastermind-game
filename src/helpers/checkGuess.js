@@ -1,3 +1,0 @@
-const checkGuess = (rowArray, randomColors) => {
-
-}

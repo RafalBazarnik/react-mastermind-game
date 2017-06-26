@@ -7,4 +7,4 @@ export const colors = {
     ORANGE: "orange"
 };
 
-export const colorArray = ["lightgreen", "blue", "darkgreen", "yellow"];
+export const colorArray = ["lightgreen", "blue", "darkgreen", "yellow", "lightgrey", "orange"];
